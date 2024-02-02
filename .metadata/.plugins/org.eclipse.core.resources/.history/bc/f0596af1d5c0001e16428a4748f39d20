@@ -1,0 +1,6 @@
+package com.te.ems.model;
+
+public class LoginDTO {
+	private int employeeId;
+	private String password;
+}

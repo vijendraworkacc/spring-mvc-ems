@@ -1,0 +1,11 @@
+package com.te.ems.sevice;
+
+import com.te.ems.model.LoginDTO;
+
+public interface AuthService {
+
+	String register(String employeeId, String employeeAge, String employeeEmail, String password);
+
+	String login(LoginDTO loginDTO);
+	
+}

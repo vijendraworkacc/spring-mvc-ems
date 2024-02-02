@@ -1,0 +1,15 @@
+package com.te.ems.repository;
+
+import org.springframework.stereotype.Repository;
+
+import com.te.ems.entity.Employee;
+
+@Repository
+public class AuthRepositoryImpl implements AuthRepository {
+
+	@Override
+	public String insertEmployee(Employee employee) {
+		return null;
+	}
+
+}

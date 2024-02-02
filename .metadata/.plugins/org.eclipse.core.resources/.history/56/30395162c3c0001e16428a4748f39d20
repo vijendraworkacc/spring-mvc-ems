@@ -1,0 +1,8 @@
+package com.te.ems.entity;
+
+public class Employee {
+	private int employeeId;
+	private int employeeAge;
+	private String employeeEmailID;
+	private String password;
+}

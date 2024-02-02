@@ -1,0 +1,21 @@
+package com.te.ems.sevice;
+
+import org.springframework.stereotype.Service;
+
+import com.te.ems.dto.LoginDTO;
+
+@Service
+public class AuthServiceImpl implements AuthService {
+
+	@Override
+	public String register(String employeeId, String employeeAge, String employeeEmail, String password) {
+		
+		return null;
+	}
+
+	@Override
+	public String login(LoginDTO loginDTO) {
+		return null;
+	}
+
+}

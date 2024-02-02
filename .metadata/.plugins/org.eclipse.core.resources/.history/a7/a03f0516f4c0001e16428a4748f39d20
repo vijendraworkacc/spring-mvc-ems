@@ -1,0 +1,20 @@
+package com.te.ems.repository;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.springframework.stereotype.Repository;
+
+import com.te.ems.entity.Employee;
+
+@Repository
+public class AuthRepositoryImpl implements AuthRepository {
+	
+	private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("MySQL_PU")
+
+	@Override
+	public String insertEmployee(Employee employee) {
+		return null;
+	}
+
+}

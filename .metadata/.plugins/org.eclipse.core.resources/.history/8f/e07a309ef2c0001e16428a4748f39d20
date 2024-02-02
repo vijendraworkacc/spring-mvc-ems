@@ -1,0 +1,7 @@
+package com.te.ems.sevice;
+
+public interface AuthService {
+
+	String register(String employeeId, String employeeAge, String employeeEmail, String password);
+	
+}
